@@ -1,1 +1,37 @@
+body {
+margin: 0;
+font-family: "Georgia", serif;
+background: radial-gradient(circle at top, #1b1b2f, #0a0a14);
+color: #eaeaea;
+text-align: center;
+}
 
+.container {
+max-width: 900px;
+margin: 40px auto;
+padding: 20px;
+}
+
+h1 {
+letter-spacing: 2px;
+color: #ffd36b;
+}
+
+p {
+max-width: 700px;
+margin: 20px auto 40px;
+font-size: 1.05rem;
+}
+
+.choice-img {
+width: 280px;
+margin: 15px;
+border-radius: 14px;
+border: 1px solid rgba(255,255,255,0.2);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.choice-img:hover {
+transform: scale(1.05);
+box-shadow: 0 0 25px rgba(255, 211, 107, 0.4);
+}
